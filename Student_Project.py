@@ -1,15 +1,16 @@
 import turtle
 
-length = 10#Initialize the length variable
+length = 10
+#Initialize the length variable
 
-while length <= :#Write the condition
+while length <= 150:
     for i in range(10):
-        #Write the line for pen color
-        #Write the line for moving the turtle forward by passing length as a variable
+        turtle.pencolor('red')
+        turtle.forward(length)
         turtle.right(89)
         length += 0.5
-        #write the break statement to exit this for loop
-    #Write the line for pen color
-    #Write the line for moving the turtle forward by passing length as a variable
+        break
+    turtle.pencolor('green')
+    turtle.forward(length)
     turtle.right(89)
     length += 0.5
